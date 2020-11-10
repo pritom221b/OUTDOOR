@@ -1,0 +1,179 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1399px) {
+  
+  /* CSS */
+  .e-title{
+    padding: 200px 0px 0px 590px;
+}
+  .events img{
+    width: 500px;
+  }
+  .tours img{
+    width:300px; 
+    margin: 0px 0px 23px 0px;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  .e-title{
+  padding: 200px 0px 0px 420px;
+}
+  .events img{
+    width: 450px;
+  }
+  .tours img{
+    width:280px; 
+    margin: 0px 0px 23px 0px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  h1{
+    font-size: 36px;
+  }
+  h2{
+    font-size: 24px;
+  }
+  h3{
+    font-size:22px; 
+  }
+  .e-title{
+  padding: 200px 0px 0px 300px;
+  }
+  .events img{
+    width: 340px;
+  }
+  .tours img{
+    width:200px; 
+    margin: 0px 0px 23px 0px;
+  }
+  .btn{
+    margin: 20px 0px !important;
+    font-size: 16px;
+    background-color: #fb2056!important;
+    color: #ffffff!important;
+    border: 0px!important;
+  } 
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 19px;
+  }
+  .e-title{
+    padding: 200px 0px 0px 100px;
+  }
+  .events img{
+    width: 200px;
+  }
+  .tours img{
+    width:140px; 
+    margin: 0px 0px 23px 0px;
+  }
+  h1{
+    font-size: 39px;
+  }
+  .btn{
+    margin: 20px 0px !important;
+    font-size: 16px;
+    background-color: #fb2056!important;
+    color: #ffffff!important;
+    border: 0px!important;
+  } 
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  h1{
+    font-size: 26px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  h4{
+    font-size: 12px;
+  }
+  h5{
+    font-size: 10px;
+  }
+  p{
+    font-size: 14px;
+  }
+  .quoteimg{
+    width: 100px;
+    margin-left: 110px;
+  }
+  .e-title{
+    padding: 200px 0px 0px 0px;
+  }
+  .events img{
+    width: 200px;
+  }
+  .xs-tour-control{
+    text-align: left!important;
+  }
+  .ttitle{
+    text-align: center;
+  }
+  .event-line{
+    margin:0px auto !important;
+  }
+  .ptour{
+    margin-top: 20px;
+  }
+  .tours img{
+    width:120px; 
+    margin: 40px 0px 0px 30px;
+  }
+  h1{
+    font-size: 39px;
+  }
+  .btn{
+    margin: 20px 0px !important;
+    font-size: 16px;
+    background-color: #fb2056!important;
+    color: #ffffff!important;
+    border: 0px!important;
+  } 
+}
